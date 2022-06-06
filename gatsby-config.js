@@ -3,6 +3,7 @@ require(`dotenv`).config()
 const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
+  pathPrefix: "/devDave",
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
@@ -15,8 +16,7 @@ module.exports = {
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: ``,
-    pathPrefix: "/devDave",
-}
+    
   },
   plugins: [
     {
@@ -29,7 +29,7 @@ module.exports = {
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
         short_name: `Cara`,
-        description: ``,
+        description: `Developer portfolio of devDave`,
         start_url: `/devDave`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
