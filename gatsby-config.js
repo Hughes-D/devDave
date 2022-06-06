@@ -7,14 +7,16 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Dave the Developer`,
+    siteTitle: `devDave`,
     siteTitleAlt: `Dave Hughes - Developer`,
     siteHeadline: ``,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `One-Page developer portfolio featuring Parallax effects and animations`,
+    siteUrl: `https://hughes-d.github.io/devDave/`,
+    siteDescription: `Developer portfolio of Dave Hughes featuring Parallax effects and animations | JavaScript | Python | MySQL`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
     author: ``,
+    pathPrefix: "/devDave",
+}
   },
   plugins: [
     {
@@ -27,8 +29,8 @@ module.exports = {
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
         short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
-        start_url: `/`,
+        description: ``,
+        start_url: `/devDave`,
         background_color: `#141821`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
